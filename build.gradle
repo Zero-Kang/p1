@@ -49,6 +49,12 @@ dependencies {
 
 
 
+    implementation group: 'com.querydsl', name: 'querydsl-sql', version: '4.0.0'
+
+
+// https://mvnrepository.com/artifact/com.google.guava/guava
+    implementation group: 'com.google.guava', name: 'guava', version: '31.1-jre'
+
 }
 
 

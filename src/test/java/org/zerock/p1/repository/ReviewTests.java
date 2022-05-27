@@ -15,7 +15,7 @@ public class ReviewTests {
     @Test
     public void testInsert() {
 
-        for (long i = 90; i < 100 ; i++) {
+        for (long i = 90; i <= 100 ; i++) {
 
             Movie movie = Movie.builder().mno(i).build();
 
